@@ -1,0 +1,10 @@
+applications:
+- services:
+  - Cloudant NoSQL DB-kt
+  disk_quota: 1024M
+  host: ToDoListAPI3
+  name: ToDoListAPI3
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
